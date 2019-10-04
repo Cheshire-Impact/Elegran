@@ -2,7 +2,7 @@
   <mj-head>
     <mj-title>%%subject%%</mj-title>
     <!-- Set A Custom Webfont -->
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
     <mj-font name="Crimson Text" href="https://fonts.googleapis.com/css?family=Crimson+Text:600&display=swap" />
     <mj-attributes>
 
@@ -15,7 +15,7 @@
       <mj-body background-color="#f6f6f6" width="650px" />
 
       <!-- Default Styles for All Elements -->
-      <mj-all color="#000" font-family="'Open Sans',Arial,Helvetica,sans-serif" font-size="14px" line-height="21px" />
+      <mj-all color="#343333" font-family="'Open Sans',Arial,Helvetica,sans-serif" font-size="14px" line-height="21px" />
 
       <mj-image align="center" fluid-on-mobile="true" href="#" css-class="pardot-region" />
 
@@ -25,33 +25,62 @@
       @import url('https://fonts.googleapis.com/css?family=Crimson Text:400,700|Roboto:300,400&display=swap');
 
       a {
-        color: #000 !important;
+        color: #343333 !important;
         text-decoration: underline !important;
       }
 
       a:visited {
-        color: #000 !important;
+        color: #343333 !important;
         text-decoration: underline !important;
       }
 
       a:link {
-        color: #000 !important;
+        color: #343333 !important;
         text-decoration: underline !important;
       }
 
+      a.blackLink {
+        color: #343333 !important;
+        text-decoration: none !important;
+      }
+
+      a.blackLink:visited {
+        color: #343333 !important;
+        text-decoration: none !important;
+      }
+
+      a.blackLink:link {
+        color: #343333 !important;
+        text-decoration: none !important;
+      }
+
+      a.whiteLink {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+
+      a.whiteLink:visited {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+
+      a.whiteLink:link {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
 
       a.greyLink {
-        color: #333 !important;
+        color: #aaa !important;
         text-decoration: none !important;
       }
 
       a.greyLink:visited {
-        color: #333 !important;
+        color: #aaa !important;
         text-decoration: none !important;
       }
 
       a.greyLink:link {
-        color: #333 !important;
+        color: #aaa !important;
         text-decoration: none !important;
       }
     </mj-style>
@@ -84,16 +113,15 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column width="50%" padding="20px">
+    <mj-section padding="0px" border="20px solid #fff" background-color="#eff0f3">
+      <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" padding="0px" />
       </mj-column>
-      <mj-column width="50%" padding="0px" background-color="#eff0f3" border-right="20px solid #ffffff" border-left="20px solid #ffffff">
-        <mj-spacer css-class="mobileHide" height="50px" container-background-color="#ffffff" padding="0px" />
+      <mj-column width="50%">
         <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <hr style="border: 0;border-top: 2px solid #000; width: 30px; float:left; margin-top:10px;" />
+          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
         </mj-text>
         <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -101,33 +129,32 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding-top="0px">
-      <mj-column width="50%" padding="20px">
+    <mj-section padding="0px" border="20px solid #fff" direction="rtl" background-color="#eff0f3">
+      <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" padding="0px" />
       </mj-column>
-      <mj-column width="50%" padding="0px" background-color="#eff0f3" border-right="20px solid #ffffff" border-left="20px solid #ffffff">
-        <mj-spacer css-class="mobileHide" height="50px" container-background-color="#ffffff" padding="0px" />
+      <mj-column width="50%">
         <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <hr style="border: 0;border-top: 2px solid #000; width: 30px; float:left; margin-top:10px;" />
+          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
         </mj-text>
         <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
       </mj-column>
+
     </mj-section>
-    <mj-section padding-top="0px">
-      <mj-column width="50%" padding="20px">
+    <mj-section padding="0px" border="20px solid #fff" background-color="#eff0f3">
+      <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" padding="0px" />
       </mj-column>
-      <mj-column width="50%" padding="0px" background-color="#eff0f3" border-right="20px solid #ffffff" border-left="20px solid #ffffff">
-        <mj-spacer css-class="mobileHide" height="50px" container-background-color="#ffffff" padding="0px" />
+      <mj-column width="50%">
         <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <hr style="border: 0;border-top: 2px solid #000; width: 30px; float:left; margin-top:10px;" />
+          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
         </mj-text>
         <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
           <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -135,9 +162,9 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px">
+    <mj-section padding="10px 10px 30px 10px">
       <mj-column>
-        <mj-divider border-width="2px" border-style="solid" border-color="#000" padding="0px" />
+        <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -154,21 +181,79 @@
     </mj-section>
     <mj-section padding="10px 10px 50px 10px">
       <mj-column>
-        <mj-divider border-width="2px" border-style="solid" border-color="#000" padding="0px" />
+        <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#f6f6f6">
+    <mj-section padding="20px">
+      <mj-column width="65%">
+        <mj-image href=" https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-04/fjpbyd/84912/174419/nick_anable.jpg" width="350px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column width="35%">
+        <mj-text padding="6px 20px 0px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="18px" font-weight="700" text-transform="uppercase">
+          <div class="pardot-region" style="clear:both;">Nick Anable
+          </div>
+        </mj-text>
+        <mj-text padding="0px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="15px" font-weight="400">
+          <div class="pardot-region" style="clear:both;">Licensed RE Salesperson
+          </div>
+          <hr style="border: 0;border-top: 5px solid #343333; width: 70px; float:left; margin-top:10px;" />
+        </mj-text>
+        <mj-text padding="10px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="14px" font-weight="300">
+          <div class="pardot-region" style="clear:both;"><strong>M: </strong><a css-class="blackLink" href="tel:831-320-3891" style="color: #343333 !important; text-decoration: none !important;"><span style="color: #343333 !important; text-decoration: none !important;">
+                <font style="color: #343333 !important; text-decoration: none !important;">831-320-3891</font>
+              </span></a><br />
+            <strong>O: </strong><a css-class="blackLink" href="tel:212-729-5712" style="color: #343333 !important; text-decoration: none !important;"><span style="color: #343333 !important; text-decoration: none !important;">
+                <font style="color: #343333 !important; text-decoration: none !important;">212-729-5712, Ext. 145</font>
+              </span></a><br />
+            <strong><a css-class="blackLink" href="https://www.elegran.com/agents/nick-anable" style="color: #343333 !important; text-decoration: underline !important;"><span style="color: #343333 !important; text-decoration: underline !important;">
+                  <font style="color: #343333 !important; text-decoration: underline !important;">elegran.com/nja</font>
+                </span></a></strong>
+
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#343333" padding="40px 0px">
       <mj-column width="80%">
-        <mj-text font-size="11px" line-height="18px" align="center" font-family="Crimson Text,serif">
-          <div class="greyLink"><a href="#" style="color: #333 !important; text-decoration: none !important;"><span style="color: #333 !important; text-decoration: none !important;">
-                <font style="color: #333 !important; text-decoration: none !important;">&copy; 2010-2019 Elegran Real Estate • 5 Bryant Park, New York, NY 10018</font>
+        <mj-text padding="8px" font-size="15px" line-height="18px" align="center" font-family="'Roboto',serif" text-transform="uppercase" font-weight="400">
+          <div class="whiteLink"><a href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                <font style="color: #fff !important; text-decoration: none !important;">Elegran Real Estate</font>
               </span></a></div>
         </mj-text>
-        <mj-text font-size="11px" line-height="18px" align="center" font-family="Crimson Text,serif">
-          <div class="greyLink"><a href="%%unsubscribe%%" style="color: #333 !important; text-decoration: none !important;"><span style="color: #333 !important; text-decoration: none !important;">
-                <font style="color: #333 !important; text-decoration: none !important;">Unsubscribe</font>
-              </span></a> | <a href="%%email_preference_center%%" style="color: #333 !important; text-decoration: none !important;"><span style="color: #333 !important; text-decoration: none !important;">
-                <font style="color: #333 !important; text-decoration: none !important;">Update Email Preferences</font>
+        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="'Roboto',serif" font-weight="300">
+          <div class="whiteLink"><a href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                <font style="color: #fff !important; text-decoration: none !important;">5 Bryant Park, New York, NY 10018</font>
+              </span></a></div>
+        </mj-text>
+        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="'Roboto',serif" font-weight="300" color="#fff">
+          <div class="whiteLink"><a href="tel:212-729-5712" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                <font style="color: #fff !important; text-decoration: none !important;">212-729-5712</font>
+              </span></a> | <a href="https://www.elegran.com/" style="color: #fff !important; text-decoration: underline !important;"><span style="color: #fff !important; text-decoration: underline !important;">
+                <font style="color: #fff !important; text-decoration: underline !important;">elegran.com</font>
+              </span></a></div>
+        </mj-text>
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal">
+          <mj-social-element name="facebook-noshare" href="#" background-color="#343333">
+          </mj-social-element>
+          <mj-social-element name="twitter-noshare" href="#" background-color="#343333">
+          </mj-social-element>
+          <mj-social-element name="linkedin-noshare" href="#" background-color="#343333">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="10px" background-color="#f6f6f6">
+      <mj-column width="100%">
+        <mj-text padding="8px" font-size="11px" line-height="18px" align="left" font-family="'Roboto',serif" color="#aaa">
+          <div class="pardot-region">Elegran LLC may or may not be the exclusive listing agent of the properties being displayed on Elegran.com. All data displayed on Elegran.com is presented for informational purposes only and should be independently confirmed by all customers. All Information is compiled from both public and private sources including, but not limited to the RLS, MLS and ACRIS; each of which is assumed to be reliable. All information displayed is subject to errors and omissions regarding apartment specifications and final sale prices, and further, any unit listed may have had its listing withdrawn without notice subsequent to such information being compiled. No representation is made as to the accuracy of any description (ie: listing, close sale data, and/or building description) of any building or individual unit. All measurements and square footage are approximate and all information herein should be confirmed by customer and/or their attorney. Elegran LLC, its members, affiliates, and contributors adhere to New Your City, New York State, and United States Fair Housing Laws.
+
+          </div>
+        </mj-text>
+        <mj-text padding="8px" font-size="11px" line-height="18px" align="left" font-family="'Roboto',serif" color="#aaa">
+          <div><a class="greyLink" href="%%unsubscribe%%" style="color: #aaa !important; text-decoration: none !important;"><span style="color: #aaa !important; text-decoration: none !important;">
+                <font style="color: #aaa !important; text-decoration: none !important;">Unsubscribe</font>
+              </span></a> | <a class="greyLink" href="%%email_preference_center%%" style="color: #aaa !important; text-decoration: none !important;"><span style="color: #aaa !important; text-decoration: none !important;">
+                <font style="color: #aaa !important; text-decoration: none !important;">Update Email Preferences</font>
               </span></a></div>
         </mj-text>
       </mj-column>
