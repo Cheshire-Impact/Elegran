@@ -9,8 +9,6 @@
       <!-- Handle Pardot Regions -->
       <mj-section css-class="pardot-repeat-remove" background-color="#fff" />
 
-
-
       <!-- Set the Body and Default Section Background Colors. These Can Be Changed Using The Background Classes On An Individual Section-->
       <mj-body background-color="#f6f6f6" width="650px" />
 
@@ -105,15 +103,15 @@
     </mj-section>
     <mj-section>
       <mj-column width="100%">
-        <mj-text font-family="Crimson Text,serif" font-size="32px" line-height="40px" text-transform="uppercase" align="center">
+        <mj-text padding="0px 30px 10px 30px" font-family="Crimson Text,serif" font-size="32px" line-height="40px" text-transform="uppercase" align="center">
           <div class="pardot-region">Teresa Alessandro</div>
         </mj-text>
-        <mj-text align="center" font-family="Roboto,Arial,Helvetica,san-serif" font-weight="300" padding="40px">
+        <mj-text align="center" font-family="Roboto,Arial,Helvetica,san-serif" font-weight="300" padding="0px 30px 10px 30px">
           <div class="pardot-region">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px" border="20px solid #fff" background-color="#eff0f3">
+    <mj-section padding="0px" border="30px solid #fff" background-color="#eff0f3">
       <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" padding="0px" />
       </mj-column>
@@ -129,7 +127,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px" border="20px solid #fff" direction="rtl" background-color="#eff0f3">
+    <mj-section padding="0px" border="30px solid #fff" direction="rtl" background-color="#eff0f3">
       <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" padding="0px" />
       </mj-column>
@@ -146,7 +144,7 @@
       </mj-column>
 
     </mj-section>
-    <mj-section padding="0px" border="20px solid #fff" background-color="#eff0f3">
+    <mj-section padding="0px" border="30px solid #fff" background-color="#eff0f3">
       <mj-column width="50%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" padding="0px" />
       </mj-column>
@@ -162,7 +160,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 10px 30px 10px">
+    <mj-section padding="10px 30px 30px 30px">
       <mj-column>
         <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
       </mj-column>
@@ -179,37 +177,15 @@
         <mj-image href="https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-02/fjbb9v/84912/174159/elegran_vector_logo_dark_02.png" width="200px" fluid-on-mobile="false" />
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 10px 50px 10px">
+    <mj-section padding="10px 30px 10px 30px">
       <mj-column>
         <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
       </mj-column>
     </mj-section>
-    <mj-section padding="20px">
-      <mj-column width="65%">
-        <mj-image href=" https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-04/fjpbyd/84912/174419/nick_anable.jpg" width="350px" fluid-on-mobile="false" />
-      </mj-column>
-      <mj-column width="35%">
-        <mj-text padding="6px 20px 0px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="18px" font-weight="700" text-transform="uppercase">
-          <div class="pardot-region" style="clear:both;">Nick Anable
-          </div>
-        </mj-text>
-        <mj-text padding="0px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="15px" font-weight="400">
-          <div class="pardot-region" style="clear:both;">Licensed RE Salesperson
-          </div>
-          <hr style="border: 0;border-top: 5px solid #343333; width: 70px; float:left; margin-top:10px;" />
-        </mj-text>
-        <mj-text padding="10px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="14px" font-weight="300">
-          <div class="pardot-region" style="clear:both;"><strong>M: </strong><a css-class="blackLink" href="tel:831-320-3891" style="color: #343333 !important; text-decoration: none !important;"><span style="color: #343333 !important; text-decoration: none !important;">
-                <font style="color: #343333 !important; text-decoration: none !important;">831-320-3891</font>
-              </span></a><br />
-            <strong>O: </strong><a css-class="blackLink" href="tel:212-729-5712" style="color: #343333 !important; text-decoration: none !important;"><span style="color: #343333 !important; text-decoration: none !important;">
-                <font style="color: #343333 !important; text-decoration: none !important;">212-729-5712, Ext. 145</font>
-              </span></a><br />
-            <strong><a css-class="blackLink" href="https://www.elegran.com/agents/nick-anable" style="color: #343333 !important; text-decoration: underline !important;"><span style="color: #343333 !important; text-decoration: underline !important;">
-                  <font style="color: #343333 !important; text-decoration: underline !important;">elegran.com/nja</font>
-                </span></a></strong>
-
-          </div>
+    <mj-section padding="10px 30px 20px 30px">
+      <mj-column width="100%">
+        <mj-text padding="0px">
+          <div class="pardot-region">%%user_html_signature%%</div>
         </mj-text>
       </mj-column>
     </mj-section>
