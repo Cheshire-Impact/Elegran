@@ -15,7 +15,7 @@
       <!-- Default Styles for All Elements -->
       <mj-all color="#343333" font-family="'Roboto',Arial,Helvetica,sans-serif" font-size="14px" line-height="21px" />
 
-      <mj-image align="center" fluid-on-mobile="true" href="#" css-class="pardot-region" />
+      <mj-image align="center" href="#" css-class="pardot-region" />
 
     </mj-attributes>
 
@@ -84,6 +84,19 @@
     </mj-style>
 
     <mj-style>
+
+      .equalizeHeight{
+      background-color: #eff0f3;
+      min-height: 229px;
+      }
+
+      @media (max-width:709px) {
+      .equalizeHeight{
+      min-height: unset;
+      max-width: 325px;
+      }
+      }
+
       @media (max-width:480px) {
       td.mobileCenter > div {
       width: 100% !important;
@@ -93,6 +106,7 @@
       display:none;
       }
       }
+
     </mj-style>
   </mj-head>
   <mj-body>
@@ -111,55 +125,50 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px" border="30px solid #fff" background-color="#eff0f3">
-      <mj-column width="50%">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" padding="0px" />
+    <mj-section padding="30px">
+      <mj-column width="325px">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" width="325px" padding="0px" />
       </mj-column>
-      <mj-column width="50%">
-        <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+        <mj-text padding="20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
-        </mj-text>
-        <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px" border="30px solid #fff" direction="rtl" background-color="#eff0f3">
-      <mj-column width="50%">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" padding="0px" />
+    <mj-section padding="30px" direction="rtl">
+      <mj-column width="325px">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" width="325px" padding="0px" />
       </mj-column>
-      <mj-column width="50%">
-        <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+        <mj-text padding="20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
-        </mj-text>
-        <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
       </mj-column>
+    </mj-section>
+    <mj-section padding="30px">
+      <mj-column width="325px">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" width="325px" padding="0px" />
+      </mj-column>
+      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+        <mj-text padding="20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+          </div>
+          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-    </mj-section>
-    <mj-section padding="0px" border="30px solid #fff" background-color="#eff0f3">
-      <mj-column width="50%">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" padding="0px" />
-      </mj-column>
-      <mj-column width="50%">
-        <mj-text padding="20px 20px 0px 20px" font-family="'Crimson Text',Arial,Helvetica,san-serif" font-size="16px" font-weight="600">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
-          </div>
-          <hr style="border: 0;border-top: 2px solid #343333; width: 30px; float:left; margin-top:10px;" />
-        </mj-text>
-        <mj-text padding="0px 20px 20px 20px" font-family="'Roboto',Arial,Helvetica,san-serif" font-size="13px" font-weight="300">
-          <div class="pardot-region" style="clear:both;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </div>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+
     <mj-section padding="10px 30px 30px 30px">
       <mj-column>
         <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
