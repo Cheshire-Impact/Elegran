@@ -85,18 +85,6 @@
 
     <mj-style>
 
-      .equalizeHeight{
-      background-color: #eff0f3;
-      min-height: 229px;
-      }
-
-      @media (max-width:709px) {
-      .equalizeHeight{
-      min-height: unset;
-      max-width: 325px;
-      }
-      }
-
       @media (max-width:480px) {
       td.mobileCenter > div {
       width: 100% !important;
@@ -106,6 +94,47 @@
       display:none;
       }
       }
+
+      .equalizeHeight{
+      min-height: 229px;
+      }
+
+      .greyBG{
+      background-color: #eff0f3 !important;
+      }
+
+      @media (max-width:720px) {
+      .customSignature table {
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align:center;
+      }
+      .customSignature img{
+      max-width: 100% !important;
+      width: 100% !important;
+      height: auto !important;
+      }
+      .customSignature td {
+      display:block;
+      width: 100% !important;
+      text-align: left;
+      padding-top:10px !important;
+      padding-left: 0px !important;
+      }
+
+      .equalizeHeight{
+      min-height: unset !important;
+      width: 100% !important;
+      max-width: 325px !important;
+      }
+
+      .tightenMobile>div {
+      max-width: 325px !important;
+      }
+
+      }
+
+
 
     </mj-style>
   </mj-head>
@@ -120,48 +149,54 @@
         <mj-text padding="0px 30px 10px 30px" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif" font-size="32px" line-height="40px" text-transform="uppercase" align="center">
           <div class="pardot-region">Teresa Alessandro</div>
         </mj-text>
-        <mj-text align="center" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300" padding="0px 30px 10px 30px">
+        <mj-text css-class="tightenMobile" align="center" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300" padding="0px 30px 10px 30px">
           <div class="pardot-region">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px">
-      <mj-column width="325px">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" width="325px" padding="0px" />
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
       </mj-column>
-      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+      <mj-column background-color="#eff0f3" css-class="equalizeHeight greyBG">
         <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+        </mj-text>
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" alt="" width="30px" align="left" padding="5px 20px 0px 20px" />
+        <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px" direction="rtl">
-      <mj-column width="325px">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" width="325px" padding="0px" />
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
       </mj-column>
-      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+      <mj-column background-color="#eff0f3" css-class="equalizeHeight greyBG">
         <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+        </mj-text>
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" alt="" width="30px" align="left" padding="5px 20px 0px 20px" />
+        <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px">
-      <mj-column width="325px">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" width="325px" padding="0px" />
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
       </mj-column>
-      <mj-column width="325px" background-color="#eff0f3" css-class="equalizeHeight">
+      <mj-column background-color="#eff0f3" css-class="equalizeHeight greyBG">
         <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
           </div>
-          <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+        </mj-text>
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" alt="" width="30px" align="left" padding="5px 20px 0px 20px" />
+        <mj-text padding="20px">
           <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </mj-text>
@@ -169,9 +204,9 @@
     </mj-section>
 
 
-    <mj-section padding="10px 30px 30px 30px">
+    <mj-section padding="10px 0px 30px 0px">
       <mj-column>
-        <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" alt="" width="650px" height="2px" href="" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -186,31 +221,51 @@
         <mj-image href="https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-02/fjbb9v/84912/174159/elegran_vector_logo_dark_02.png" width="200px" fluid-on-mobile="false" />
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 30px 10px 30px">
+    <mj-section padding="10px 0px 30px 0px">
       <mj-column>
-        <mj-divider border-width="2px" border-style="solid" border-color="#343333" padding="0px" />
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" alt="" width="650px" height="2px" href="" />
       </mj-column>
     </mj-section>
     <mj-section padding="10px 30px 20px 30px">
       <mj-column width="100%">
         <mj-text padding="0px">
           <div class="pardot-region">%%user_html_signature%%</div>
+          <div class="customSignature">
+            <!-- DELETE -->
+            <table border="0" cellpadding="0" cellspacing="0" style="margin-bottom:10px; width:650px">
+              <tbody>
+                <tr>
+                  <td align="left" style="line-height: 0; width: 404px;"><img alt="Andrew Vidokle" height="180" src="https://elegran-brand-assets.s3.amazonaws.com/agents/andrew-vidokle/web/pardot.jpg" style="height:180px; width:404px" width="404" /></td>
+                  <td style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11pt; line-height: 23px; padding-left: 30px;"><strong>
+                      <font style="font-size:14pt">ANDREW VIDOKLE</font>
+                    </strong><br />
+                    Sales Manager
+                    <div class="titleline" style="height:5px;background:#333333;width:100px;margin-bottom:15px;margin-top:15px">&nbsp;</div>
+                    <strong>M.</strong> 516-606-5743<br />
+                    <strong>O.</strong> 212-729-5712, Ext. 138<br />
+                    <a href="https://www.elegran.com/avi" style="color:#333333">elegran.com/avi</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- /DELETE -->
+          </div>
+
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#343333" padding="40px 0px">
       <mj-column width="80%">
-        <mj-text padding="8px" font-size="15px" line-height="18px" align="center" font-family="'Roboto',serif" text-transform="uppercase" font-weight="400">
+        <mj-text padding="8px" font-size="15px" line-height="18px" align="center" font-family="'Roboto',Arial,Helvetica,san-serif" text-transform="uppercase" font-weight="400">
           <div class="whiteLink"><a href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                 <font style="color: #fff !important; text-decoration: none !important;">Elegran Real Estate</font>
               </span></a></div>
         </mj-text>
-        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="'Roboto',serif" font-weight="300">
+        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300">
           <div class="whiteLink"><a href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                 <font style="color: #fff !important; text-decoration: none !important;">5 Bryant Park, New York, NY 10018</font>
               </span></a></div>
         </mj-text>
-        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="'Roboto',serif" font-weight="300" color="#fff">
+        <mj-text padding="8px" font-size="13px" line-height="18px" align="center" font-family="''Roboto',Arial,Helvetica,san-serif" font-weight="300" color="#fff">
           <div class="whiteLink"><a href="tel:212-729-5712" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                 <font style="color: #fff !important; text-decoration: none !important;">212-729-5712</font>
               </span></a> | <a href="https://www.elegran.com/" style="color: #fff !important; text-decoration: underline !important;"><span style="color: #fff !important; text-decoration: underline !important;">
@@ -229,12 +284,12 @@
     </mj-section>
     <mj-section padding-top="10px" background-color="#f6f6f6">
       <mj-column width="100%">
-        <mj-text padding="8px" font-size="11px" line-height="18px" align="left" font-family="'Roboto',serif" color="#aaa">
+        <mj-text padding="8px" font-size="11px" line-height="18px" align="left" font-family="'Roboto',Arial,Helvetica,san-serif" color="#aaa">
           <img src="http://go.pardot.com/l/84912/2019-10-10/fljwjq/84912/174803/equal_opportunity_housing.png" style="width:20px;float:left;padding-right:10px">
           <p style="color:#999999;font-size:6.5pt;margin-bottom:0px;line-height:8pt">&copy; 2019 Elegran LLC. All rights reserved. Elegran LLC may or may not be the exclusive listing agent of the properties being displayed or recommended by Elegran LLC. In no case should this communication be considered a solicitation to transact in any manner. Information is for informational purposes only and compiled from public and private sources believed to be reliable, but accuracy cannot be guaranteed. All data, including apartment specifications, availability, renderings, descriptions and prices, is subject to change without notice, and no representation or warranty, express or implied, is given. All measurements and square footage are approximate and all information herein should be confirmed by an independent third party. Elegran LLC, its members, affiliates, and contributors adhere to New York City, New York State, and United States Fair Housing Laws.</p>
 
         </mj-text>
-        <mj-text padding="8px" font-size="9px" line-height="18px" align="left" font-family="'Roboto',serif" color="#aaa">
+        <mj-text padding="8px" font-size="9px" line-height="18px" align="left" font-family="'Roboto',Arial,Helvetica,san-serif" color="#aaa">
           <div><a class="greyLink" href="%%unsubscribe%%" style="color: #aaa !important; text-decoration: none !important;"><span style="color: #aaa !important; text-decoration: none !important;">
                 <font style="color: #aaa !important; text-decoration: none !important;">Unsubscribe</font>
               </span></a> | <a class="greyLink" href="%%email_preference_center%%" style="color: #aaa !important; text-decoration: none !important;"><span style="color: #aaa !important; text-decoration: none !important;">

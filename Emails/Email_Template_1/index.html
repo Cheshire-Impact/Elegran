@@ -69,9 +69,9 @@
         max-width: 100%;
       }
 
-      .mj-column-px-325 {
-        width: 325px !important;
-        max-width: 325px;
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
       }
 
       .mj-column-per-80 {
@@ -154,18 +154,6 @@
       text-decoration: none !important;
     }
 
-    .equalizeHeight {
-      background-color: #eff0f3;
-      min-height: 229px;
-    }
-
-    @media (max-width:709px) {
-      .equalizeHeight {
-        min-height: unset;
-        max-width: 325px;
-      }
-    }
-
     @media (max-width:480px) {
       td.mobileCenter>div {
         width: 100% !important;
@@ -176,16 +164,55 @@
         display: none;
       }
     }
-  </style>
-</head>
 
+    .equalizeHeight {
+      min-height: 229px;
+    }
+
+    .greyBG {
+      background-color: #eff0f3 !important;
+    }
+
+    @media (max-width:720px) {
+      .customSignature table {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+      }
+
+      .customSignature img {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .customSignature td {
+        display: block;
+        width: 100% !important;
+        text-align: left;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+      }
+
+      .equalizeHeight {
+        min-height: unset !important;
+        width: 100% !important;
+        max-width: 325px !important;
+      }
+
+      .tightenMobile>div {
+        max-width: 325px !important;
+      }
+    }
+  </style>
+  <!-- Set A Custom Webfont -->
+</head>
 <body style="background-color:#f6f6f6;">
   <!--[if mso]>
     <style type="text/css">
       body, div, table, td, p, h1, h2, h3, h4, h5, h6, li, a {font-family: Arial, Helvetica, sans-serif !important;}
     </style>
   <![endif]-->
-  
   <div style="background-color:#f6f6f6;">
     <!--[if mso | IE]>
       <table
@@ -274,7 +301,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="center" style="font-size:0px;padding:0px 30px 10px 30px;word-break:break-word;">
+                    <td align="center" class="tightenMobile" style="font-size:0px;padding:0px 30px 10px 30px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:14px;font-weight:300;line-height:21px;text-align:center;color:#343333;">
                         <div pardot-region="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                       </div>
@@ -316,10 +343,10 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
@@ -342,16 +369,36 @@
             </td>
           
             <td
-               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook greyBG-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight greyBG" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#eff0f3;vertical-align:top;" width="100%">
                   <tr>
                     <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor? </div>
-                        <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:5px 20px 0px 20px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:30px;">
+                              <a href="#" target="_blank">
+                                <img pardot-region="" alt="" height="auto" src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="30" />
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
+                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </div>
                       </div>
                     </td>
@@ -392,10 +439,10 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
@@ -418,16 +465,36 @@
             </td>
           
             <td
-               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook greyBG-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight greyBG" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#eff0f3;vertical-align:top;" width="100%">
                   <tr>
                     <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor? </div>
-                        <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" pardot-region="" style="font-size:0px;padding:5px 20px 0px 20px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:30px;">
+                              <a href="#" target="_blank">
+                                <img alt="" height="auto" src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="30" />
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
+                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </div>
                       </div>
                     </td>
@@ -468,10 +535,10 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
@@ -494,16 +561,36 @@
             </td>
           
             <td
-               class="equalizeHeight-outlook" style="vertical-align:top;width:325px;"
+               class="equalizeHeight-outlook greyBG-outlook" style="vertical-align:top;width:325px;"
             >
           <![endif]-->
-              <div class="mj-column-px-325 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <div class="mj-column-per-50 outlook-group-fix equalizeHeight greyBG" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#eff0f3;vertical-align:top;" width="100%">
                   <tr>
                     <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor? </div>
-                        <div style="border-top: 2px solid #343333; width: 30px; height:2px;margin:15px 0px 10px 0px;">&nbsp;</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" pardot-region="" style="font-size:0px;padding:5px 20px 0px 20px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:30px;">
+                              <a href="#" target="_blank">
+                                <img alt="" height="auto" src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="30" />
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="font-size:0px;padding:20px;word-break:break-word;">
+                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </div>
                       </div>
                     </td>
@@ -537,33 +624,29 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:10px 30px 30px 30px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:10px 0px 30px 0px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:650px;"
+               class="" style="vertical-align:top;width:710px;"
             >
           <![endif]-->
               <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td style="font-size:0px;padding:0px;word-break:break-word;">
-                      <p style="border-top:solid 2px #343333;font-size:1;margin:0px auto;width:100%;">
-                      </p>
-                      <!--[if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 2px #343333;font-size:1;margin:0px auto;width:650px;" role="presentation" width="650px"
-        >
-          <tr>
-            <td style="height:0;line-height:0;">
-              &nbsp;
-            </td>
-          </tr>
-        </table>
-      <![endif]-->
+                    <td align="center" pardot-region="" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:650px;">
+                              <img alt="" height="2" src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" style="border:0;display:block;outline:none;text-decoration:none;height:2px;width:100%;font-size:14px;" width="650" />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -699,33 +782,29 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:10px 30px 10px 30px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:10px 0px 30px 0px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:650px;"
+               class="" style="vertical-align:top;width:710px;"
             >
           <![endif]-->
               <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td style="font-size:0px;padding:0px;word-break:break-word;">
-                      <p style="border-top:solid 2px #343333;font-size:1;margin:0px auto;width:100%;">
-                      </p>
-                      <!--[if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 2px #343333;font-size:1;margin:0px auto;width:650px;" role="presentation" width="650px"
-        >
-          <tr>
-            <td style="height:0;line-height:0;">
-              &nbsp;
-            </td>
-          </tr>
-        </table>
-      <![endif]-->
+                    <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:650px;">
+                              <img alt="" height="2" src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" style="border:0;display:block;outline:none;text-decoration:none;height:2px;width:100%;font-size:14px;" width="650" />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -772,7 +851,9 @@
                   <tr>
                     <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="">%%user_html_signature%%</div>
+                        <div class="customSignature">
+                          %%user_html_signature%%
+                        </div>
                       </div>
                     </td>
                   </tr>
@@ -820,7 +901,7 @@
                   <tr>
                     <td align="center" style="font-size:0px;padding:8px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:15px;font-weight:400;line-height:18px;text-align:center;text-transform:uppercase;color:#343333;">
-                        <div><a href="#" class="whiteLink" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                        <div><a class="whiteLink" pardot-region="" href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                               <font style="color: #fff !important; text-decoration: none !important;">Elegran Real Estate</font>
                             </span></a></div>
                       </div>
@@ -829,7 +910,7 @@
                   <tr>
                     <td align="center" style="font-size:0px;padding:8px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;line-height:18px;text-align:center;color:#343333;">
-                        <div><a href="#" class="whiteLink" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                        <div><a class="whiteLink" pardot-region="" href="#" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                               <font style="color: #fff !important; text-decoration: none !important;">5 Bryant Park, New York, NY 10018</font>
                             </span></a></div>
                       </div>
@@ -837,10 +918,10 @@
                   </tr>
                   <tr>
                     <td align="center" style="font-size:0px;padding:8px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;line-height:18px;text-align:center;color:#ffffff;">
-                        <div><a href="tel:212-729-5712" class="whiteLink" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
+                      <div style="font-family:''Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;line-height:18px;text-align:center;color:#ffffff;">
+                        <div><a class="whiteLink" pardot-region="" href="tel:212-729-5712" style="color: #fff !important; text-decoration: none !important;"><span style="color: #fff !important; text-decoration: none !important;">
                               <font style="color: #fff !important; text-decoration: none !important;">212-729-5712</font>
-                            </span></a> | <a href="https://www.elegran.com/" class="whiteLink" style="color: #fff !important; text-decoration: underline !important;"><span style="color: #fff !important; text-decoration: underline !important;">
+                            </span></a> | <a class="whiteLink" pardot-region="" href="https://www.elegran.com/" style="color: #fff !important; text-decoration: underline !important;"><span style="color: #fff !important; text-decoration: underline !important;">
                               <font style="color: #fff !important; text-decoration: underline !important;">elegran.com</font>
                             </span></a></div>
                       </div>
