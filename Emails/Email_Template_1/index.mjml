@@ -139,21 +139,141 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    <!-- MY NYC Logo -->
     <mj-section>
       <mj-column width="100%">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb9q/84912/174157/my_nyc_lockup.png" fluid-on-mobile="false" width="200px" align="center" />
       </mj-column>
     </mj-section>
+    <!-- Elegran Logo -->
+    <mj-section padding-bottom="30px">
+      <mj-column width="100%">
+        <mj-image href="https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-02/fjbb9v/84912/174159/elegran_vector_logo_dark_02.png" width="150px" fluid-on-mobile="false" />
+      </mj-column>
+    </mj-section>
+    <!-- Full Width Centered Headline -->
+    <mj-section padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-text padding="0px 30px 0px 30px" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif" font-size="32px" line-height="40px" align="center">
+          <div class="pardot-region">TERESA ALESSANDRO</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Full Width Centered Text -->
     <mj-section>
       <mj-column width="100%">
-        <mj-text padding="0px 30px 10px 30px" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif" font-size="32px" line-height="40px" text-transform="uppercase" align="center">
-          <div class="pardot-region">Teresa Alessandro</div>
-        </mj-text>
         <mj-text css-class="tightenMobile" align="center" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300" padding="0px 30px 10px 30px">
           <div class="pardot-region">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Full Width Centered Image -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnv9jd/84912/176129/ive_joined_elegran_pardot.jpg" width="650px" padding="0px" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Full Width Left Aligned Text -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text css-class="tightenMobile" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300" padding="0px 30px 10px 30px">
+          <div class="pardot-region">
+            <p>Hello,</p>
+
+            <p>I’m excited to announce that I have joined the team at Elegran Real Estate! Elegran is a boutique real estate firm with a focus on new technology and providing unparalleled service to their clients. Our collective approach, extensive resources, and market knowledge allows us to deliver a superior client experience and emerge as a leader in the industry.</p>
+
+            <p>I would love to connect and discuss how our team at Elegran can be of service to you.</p>
+
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Left, White Text Box Right -->
+    <mj-section padding="30px">
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnv9k6/84912/176131/603992e5_cd9d_4d1e_b4ae_9d9bdfe44d7e.jpg" width="325px" padding="0px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column css-class="equalizeHeight">
+        <mj-text padding="15px 20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;"> VISIONARY TECHNOLOGY
+          </div>
+        </mj-text>
+
+        <mj-text padding="5px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Elegran has been recognized for its game-changing technology and was named “Most Innovative Brokerage in America” in 2017 by Inman News. Elegran’s innovative technology and support staff have eliminated 75 percent of agents’ administrative work.
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Right, White Text Box Left -->
+    <mj-section padding="30px" direction="rtl">
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnv9kd/84912/176133/Screen_Shot_2018_06_11_at_10.30.18_AM.png" width="325px" padding="0px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column css-class="equalizeHeight">
+        <mj-text padding="15px 20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;"> UNPARALELLED LISTING EXPOSURE
+          </div>
+        </mj-text>
+
+        <mj-text padding="5px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Elegran reaches 300 million potential buyers with international listing syndication, and Elegran’s listings spend 20% less time on the market than competitors’. Elegran had 90% growth in listing business in 2017, as reported by The Real Deal.
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Event: Image Left, White Text Box Right -->
+    <mj-section padding="30px">
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnvc6v/84912/176157/elegran_event_image.jpg" width="325px" padding="0px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column css-class="equalizeHeight">
+        <mj-text padding="10px 20px 5px 20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Local Upcoming Event
+          </div>
+        </mj-text>
+        <mj-text padding="0px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:600;">DATE | TIME | LOCATION
+          </div>
+        </mj-text>
+
+        <mj-text padding="10px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Event description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </mj-text>
+        <mj-button href="#" color="#fff" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="400" font-size="13px" text-transform="uppercase" border-radius="0px" align="left" padding-left="20px">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Blog: Image Left, White Text Box Right -->
+    <mj-section padding="30px">
+      <mj-column css-class="equalizeHeight">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnvc6x/84912/176159/elegran_blog_image.jpg" width="325px" padding="0px" fluid-on-mobile="false" />
+      </mj-column>
+      <mj-column css-class="equalizeHeight">
+        <mj-text padding="10px 20px 5px 20px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Blog Title
+          </div>
+        </mj-text>
+
+        <mj-text padding="10px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Blog description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </mj-text>
+        <mj-button href="#" color="#fff" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="400" font-size="13px" text-transform="uppercase" border-radius="0px" align="left" padding-left="20px">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Left, Content in Grey Box Right -->
     <mj-section padding="30px">
       <mj-column css-class="equalizeHeight">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fj995z/84912/174149/q1_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
@@ -170,6 +290,11 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
+
+
+
+    <!-- Image Right, Content in Grey Box Left -->
     <mj-section padding="30px" direction="rtl">
       <mj-column css-class="equalizeHeight">
         <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8s/84912/174153/q2_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
@@ -186,29 +311,144 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="30px">
-      <mj-column css-class="equalizeHeight">
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-02/fjbb8v/84912/174155/q3_image.png" width="325px" padding="0px" fluid-on-mobile="false" />
+
+
+    <!-- My Featured Listings Title -->
+    <mj-section background-color="#eff0f3">
+      <mj-column width="100%">
+        <mj-text font-size="28px" line-height="36px" align="center" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif" padding-bottom="0px">
+          <div class="pardot-region">My Featured Listings</div>
+        </mj-text>
       </mj-column>
-      <mj-column background-color="#eff0f3" css-class="equalizeHeight greyBG">
-        <mj-text padding="20px">
-          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:16px;font-weight:600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+    </mj-section>
+
+    <!-- My Featured Listings Row 1 -->
+    <mj-section background-color="#eff0f3">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.it/305x200" width="305px" padding="0px" fluid-on-mobile="false" align="center" />
+        <mj-text padding="8px 30px 0px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X
           </div>
         </mj-text>
-        <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d92/84912/175507/divider_30px.png" alt="" width="30px" align="left" padding="5px 20px 0px 20px" />
-        <mj-text padding="20px">
-          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        <mj-text padding="0px 30px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX
+          </div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.it/305x200" width="305px" padding="0px" fluid-on-mobile="false" align="center" />
+        <mj-text padding="8px 30px 0px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X
+          </div>
+        </mj-text>
+        <mj-text padding="0px 30px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- My Featured Listings Row 2 -->
+    <mj-section background-color="#eff0f3">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.it/305x200" width="305px" padding="0px" fluid-on-mobile="false" align="center" />
+        <mj-text padding="8px 30px 0px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X
+          </div>
+        </mj-text>
+        <mj-text padding="0px 30px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX
+          </div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.it/305x200" width="305px" padding="0px" fluid-on-mobile="false" align="center" />
+        <mj-text padding="8px 30px 0px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X
+          </div>
+        </mj-text>
+        <mj-text padding="0px 30px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX
           </div>
         </mj-text>
       </mj-column>
     </mj-section>
 
 
+    <!-- Full Width Centered Image + Left Aligned Article -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnv9jd/84912/176129/ive_joined_elegran_pardot.jpg" width="650px" padding="0px" fluid-on-mobile="true" />
+        <mj-text padding="20px 30px 5px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:22px;font-weight:600;">Quick Market Update
+          </div>
+        </mj-text>
+        <mj-text css-class="tightenMobile" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="300" padding="5px 30px 10px 30px">
+          <div class="pardot-region">
+            Info here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Full Width Hero Section -->
+
+    <mj-hero background-url="http://go.pardot.com/l/84912/2019-10-29/fnv9p4/84912/176135/image8.png" padding="120px 0px" vertical-align="middle" mode="fluid-height">
+      <mj-text padding="0px 30px 20px 30px" color="#fff" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif" font-size="48px" line-height="58px" align="center">
+        <div class="pardot-region">NYC Real Estate</div>
+      </mj-text>
+      <mj-image src="http://go.pardot.com/l/84912/2019-10-29/fnvc3b/84912/176137/elegran_white_divider.jpg" width="125px" align="center" alt="" />
+      <mj-text padding="30px 20px 0px 0px" color="#fff" align="center">
+        <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:24px;line-height:32pxfont-weight:400;">SUBHEADING HERE
+        </div>
+      </mj-text>
+    </mj-hero>
+
+    <!-- Full Width Event Title -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text padding="50px 30px 5px 30px">
+          <div class="pardot-region" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:42px;font-weight:600;">Event Name
+          </div>
+        </mj-text>
+        <mj-text padding="20px 30px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:18px;font-weight:600;">DATE | TIME | LOCATION
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Full Width Event Image -->
+    <mj-hero background-url="http://go.pardot.com/l/84912/2019-10-29/fnvc4b/84912/176155/image9.png" background-height="337px" background-width="710px" vertical-align="middle" mode="fixed-height" padding="170px 0px">
+    </mj-hero>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text padding="10px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Blurb about event... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </mj-text>
+        <mj-text padding="10px 20px">
+          <div class="pardot-region" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:15px;font-weight:600;">RSVP BY DECEMBER 1ST
+          </div>
+        </mj-text>
+        <mj-button href="#" color="#fff" font-family="'Roboto',Arial,Helvetica,san-serif" font-weight="400" font-size="13px" text-transform="uppercase" border-radius="0px" align="left" padding-left="20px">
+          RSVP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- Full Width Divider -->
     <mj-section padding="10px 0px 30px 0px">
       <mj-column>
         <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" alt="" width="650px" height="2px" href="" />
       </mj-column>
     </mj-section>
+    <!-- Between Divider Text  -->
     <mj-section>
       <mj-column width="100%">
         <mj-text font-size="20px" line-height="28px" align="center" font-family="'Crimson Text',Georgia,Times,'Times New Roman',serif">
@@ -216,16 +456,19 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Between Divider Image -->
     <mj-section padding-bottom="30px">
       <mj-column width="100%">
         <mj-image href="https://www.elegran.com/" src="http://go.pardot.com/l/84912/2019-10-02/fjbb9v/84912/174159/elegran_vector_logo_dark_02.png" width="200px" fluid-on-mobile="false" />
       </mj-column>
     </mj-section>
+    <!-- Full Width Divider -->
     <mj-section padding="10px 0px 30px 0px">
       <mj-column>
         <mj-image src="http://go.pardot.com/l/84912/2019-10-17/fm3d94/84912/175509/divider_650px.png" alt="" width="650px" height="2px" href="" />
       </mj-column>
     </mj-section>
+    <!-- Custom HTML Signature -->
     <mj-section padding="10px 30px 20px 30px">
       <mj-column width="100%">
         <mj-text padding="0px">
@@ -253,6 +496,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Email Footer -->
     <mj-section background-color="#343333" padding="40px 0px">
       <mj-column width="80%">
         <mj-text padding="8px" font-size="15px" line-height="18px" align="center" font-family="'Roboto',Arial,Helvetica,san-serif" text-transform="uppercase" font-weight="400">
@@ -273,15 +517,18 @@
               </span></a></div>
         </mj-text>
         <mj-social font-size="15px" icon-size="28px" mode="horizontal">
-          <mj-social-element name="facebook-noshare" href="#" background-color="#343333">
+          <mj-social-element name="facebook-noshare" href="https://www.facebook.com/ElegranRealEstate/" background-color="#343333">
           </mj-social-element>
-          <mj-social-element name="twitter-noshare" href="#" background-color="#343333">
+          <mj-social-element name="instagram" href="https://www.instagram.com/elegranrealestate" background-color="#343333">
           </mj-social-element>
-          <mj-social-element name="linkedin-noshare" href="#" background-color="#343333">
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/elegran_nyc" background-color="#343333">
+          </mj-social-element>
+          <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/elegran-real-estate-&-development" background-color="#343333">
           </mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
+    <!-- Email Bottom Matter -->
     <mj-section padding-top="10px" background-color="#f6f6f6">
       <mj-column width="100%">
         <mj-text padding="8px" font-size="11px" line-height="18px" align="left" font-family="'Roboto',Arial,Helvetica,san-serif" color="#aaa">
