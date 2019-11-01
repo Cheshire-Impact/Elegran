@@ -1,0 +1,40 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
+  </mj-head>
+  <mj-body width="650px">
+    <mj-section background-color="#fff">
+      <mj-column width="404px">
+        <mj-image src="https://elegran-brand-assets.s3.amazonaws.com/agents/sunny-nagel/web/pardot.jpg" width="404px" alt="Sunny Nagel" padding="0px" />
+      </mj-column>
+      <mj-column width="246px">
+        <mj-text color="#333" font-size="18px" font-weight="bold" font-family="'Roboto',Helvetica, Arial, sans-serif" text-transform="uppercase">
+          Sunny Nagel
+        </mj-text>
+        <mj-text color="#333" font-size="14px" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="0px">
+          Licensed RE Salesperson
+        </mj-text>
+        <mj-text padding-top="10px">
+          <div class="titleline" style="height:5px;background:#333333;width:100px;">
+            &nbsp;
+          </div>
+        </mj-text>
+        <mj-text color="#333" font-size="14px" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="10px">
+          <strong>M.</strong> <a class="blackLink" href="tel:917-882-9031" style="color: #333 !important; text-decoration: none !important;"><span style="color: #333 !important; text-decoration: none !important;">
+              <font style="color: #333 !important; text-decoration: none !important;">917-882-9031</font>
+            </span></a>
+        </mj-text>
+        <mj-text color="#333" font-size="14px" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="0px">
+          <strong>O.</strong>&nbsp;<a class="blackLink" href="tel:212-729-5712" style="color: #333 !important; text-decoration: none !important;"><span style="color: #333 !important; text-decoration: none !important;">
+              <font style="color: #333 !important; text-decoration: none !important;">212-729-5712, Ext. 151</font>
+            </span></a>
+        </mj-text>
+        <mj-text color="#333" font-size="14px" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="0px">
+          <a class="blackLink" href="https://www.elegran.com/agents/sunny-nagel" style="color: #333 !important; text-decoration: underline !important;"><span style="color: #333 !important; text-decoration: underline !important;">
+              <font style="color: #333 !important; text-decoration: underline !important;">elegran.com/sn</font>
+            </span></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
