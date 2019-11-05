@@ -78,7 +78,16 @@
         width: 80% !important;
         max-width: 80%;
       }
-    }
+      .mj-column-px-404 {
+        width: 404px !important;
+        max-width: 404px;
+      }
+
+      .mj-column-px-246 {
+        width: 246px !important;
+        max-width: 246px;
+      }
+
     }
   </style>
   <style type="text/css">
@@ -86,14 +95,32 @@
       table.full-width-mobile {
         width: 100% !important;
       }
-
       td.full-width-mobile {
         width: auto !important;
       }
+
+      .listings{
+        text-align:center;
+      }
+
+      .padYMobile{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+
+      .padXMobile{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+      }
+
+      .nopadTMobile{
+        padding-top: 0px !important;
+      }
+      .nopadBMobile{
+        padding-bottom: 0px !important;
+      }
+
     }
-  </style>
-  <style type="text/css">
-    @import url('https://fonts.googleapis.com/css?family=Crimson Text:400,700|Roboto:300,400&display=swap');
 
     a {
       color: #343333 !important;
@@ -155,14 +182,41 @@
       text-decoration: none !important;
     }
 
-    @media (max-width:480px) {
+
+    @media (max-width:710px) {
       td.mobileCenter>div {
-        width: 100% !important;
+        margin-left:auto;
+        margin-right:auto;
         text-align: center !important;
+      }
+
+      table.mobileCenterButton {
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center !important;
+      }
+
+      .tightenMobile > div{
+        max-width: 90%;
+      }
+
+      .titleline{
+        margin-left:auto;
+        margin-right:auto;
       }
 
       .mobileHide {
         display: none;
+      }
+
+      .mj-column-px-404 {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .mj-column-px-246 {
+        width: 100% !important;
+        max-width: 100% !important;
       }
     }
 
@@ -173,40 +227,7 @@
     .greyBG {
       background-color: #eff0f3 !important;
     }
-
-    @media (max-width:720px) {
-      .customSignature table {
-        width: 100% !important;
-        max-width: 100% !important;
-        text-align: center;
-      }
-
-      .customSignature img {
-        max-width: 100% !important;
-        width: 100% !important;
-        height: auto !important;
-      }
-
-      .customSignature td {
-        display: block;
-        width: 100% !important;
-        text-align: left;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-      }
-
-      .equalizeHeight {
-        min-height: unset !important;
-        width: 100% !important;
-        max-width: 325px !important;
-      }
-
-      .tightenMobile>div {
-        max-width: 325px !important;
-      }
-    }
   </style>
-  <!-- Set A Custom Webfont -->
 </head>
 
 <body style="background-color:#f6f6f6;">
@@ -556,7 +577,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
+            <td class="nopadBMobile nopadTMobile" style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -570,7 +591,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -595,17 +616,13 @@
               <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:15px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;"> VISIONARY TECHNOLOGY </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:15px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;"> VISIONARY TECHNOLOGY </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:5px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Elegran has been recognized for its game-changing technology and was named “Most Innovative Brokerage in America” in 2017 by Inman News. Elegran’s innovative technology and support staff have eliminated 75 percent of agents’ administrative work. </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:5px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;color:#343333;">Elegran has been recognized for its game-changing technology and was named “Most Innovative Brokerage in America” in 2017 by Inman News. Elegran’s innovative technology and support staff have eliminated 75 percent of agents’ administrative work. </div>
                     </td>
                   </tr>
                 </table>
@@ -639,7 +656,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:rtl;font-size:0px;padding:30px;text-align:center;">
+            <td class="nopadBMobile nopadTMobile" style="direction:rtl;font-size:0px;padding:30px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -653,7 +670,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -678,17 +695,14 @@
               <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:15px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;"> UNPARALELLED LISTING EXPOSURE </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:15px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;"> UNPARALELLED LISTING EXPOSURE </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:5px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Elegran reaches 300 million potential buyers with international listing syndication, and Elegran’s listings spend 20% less time on the market than competitors’. Elegran had 90% growth in listing business in 2017, as reported by The Real Deal. </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:5px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;color:#343333;">Elegran reaches 300 million potential buyers with international listing syndication, and Elegran’s listings spend 20% less time on the market than competitors’. Elegran had 90% growth in listing business in 2017, as reported by The Real Deal. </div>
+                    
                     </td>
                   </tr>
                 </table>
@@ -722,7 +736,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
+            <td class="nopadBMobile nopadTMobile" style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -736,7 +750,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -761,29 +775,24 @@
               <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px 5px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Local Upcoming Event </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:10px 20px 5px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;">Local Upcoming Event </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:0px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:600;">DATE | TIME | LOCATION </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:0px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:600;color:#343333;">DATE | TIME | LOCATION </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Event description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
+                  
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;color:#343333;">Event description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                     </td>
                   </tr>
                   <tr>
                     <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;padding-left:20px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                      <table class="mobileCenterButton" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                         <tr>
                           <td align="center" bgcolor="#414141" role="presentation" style="border:none;border-radius:0px;cursor:auto;mso-padding-alt:10px 25px;background:#414141;" valign="middle">
                             <a href="#" class="whiteLink" style="display:inline-block;background:#414141;color:#ffffff !important;font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;line-height:21px;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:0px;" target="_blank"><span style="color: #FFFFFF !important; text-decoration: none !important;"><font style="color: #FFFFFF !important; text-decoration: none !important;"> Learn More </font></span></a>
@@ -823,7 +832,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
+            <td class="nopadBMobile nopadTMobile" style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -837,7 +846,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -862,22 +871,20 @@
               <div class="mj-column-per-50 outlook-group-fix equalizeHeight" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px 5px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Blog Title </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:10px 20px 5px 20px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;">Blog Title </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Blog description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                      </div>
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
+                      
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;color:#343333;">Blog description here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                      
                     </td>
                   </tr>
                   <tr>
                     <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;padding-left:20px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                      <table class="mobileCenterButton" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                         <tr>
                           <td align="center" bgcolor="#414141" role="presentation" style="border:none;border-radius:0px;cursor:auto;mso-padding-alt:10px 25px;background:#414141;" valign="middle">
                             <a href="#" class="whiteLink" style="display:inline-block;background:#414141;color:#ffffff !important;font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;line-height:21px;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:0px;" target="_blank"><span style="color: #FFFFFF !important; text-decoration: none !important;"><font style="color: #FFFFFF !important; text-decoration: none !important;"> Learn More </font></span></a>
@@ -931,7 +938,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -1029,7 +1036,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
                             <td style="width:325px;">
@@ -1163,7 +1170,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#eff0f3;background-color:#eff0f3;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+            <td class="nopadBMobile" style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -1177,10 +1184,10 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
-                            <td style="width:305px;">
+                            <td class="padYMobile padXMobile" style="width:305px;">
                               <a href="#" target="_blank">
                                 <img pardot-region="" pardot-region-type="image" height="auto" src="https://placehold.it/305x200" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="305" />
                               </a>
@@ -1191,17 +1198,15 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;">Address, Apt X </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
+          
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;color:#343333;">2 Beds | 2 Baths | $X,XXX,XXX </div>
+                      
                     </td>
                   </tr>
                 </table>
@@ -1217,10 +1222,10 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
-                            <td style="width:305px;">
+                            <td class="padYMobile padXMobile" style="width:305px;">
                               <a href="#" target="_blank">
                                 <img pardot-region="" pardot-region-type="image" height="auto" src="https://placehold.it/305x200" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="305" />
                               </a>
@@ -1231,17 +1236,17 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
+                      
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;">Address, Apt X </div>
+                      
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
+                   
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;color:#343333;">2 Beds | 2 Baths | $X,XXX,XXX </div>
+                     
                     </td>
                   </tr>
                 </table>
@@ -1275,7 +1280,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#eff0f3;background-color:#eff0f3;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+            <td class="noPadTMobile" style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -1289,10 +1294,10 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
-                            <td style="width:305px;">
+                            <td class="padYMobile padXMobile" style="width:305px;">
                               <a href="#" target="_blank">
                                 <img pardot-region="" pardot-region-type="image" height="auto" src="https://placehold.it/305x200" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="305" />
                               </a>
@@ -1303,17 +1308,17 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
+                      
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600; color:#343333;">Address, Apt X </div>
+                     
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
+                     
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;color:#343333;">2 Beds | 2 Baths | $X,XXX,XXX </div>
+                      
                     </td>
                   </tr>
                 </table>
@@ -1329,10 +1334,10 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <table class="full-width-mobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
-                            <td style="width:305px;">
+                            <td class="padYMobile padXMobile" style="width:305px;">
                               <a href="#" target="_blank">
                                 <img pardot-region="" pardot-region-type="image" height="auto" src="https://placehold.it/305x200" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;" width="305" />
                               </a>
@@ -1343,17 +1348,16 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;">Address, Apt X </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:8px 30px 0px 30px;word-break:break-word;">
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:18px;font-weight:600;color:#343333;">Address, Apt X </div>
+                     
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;">2 Beds | 2 Baths | $X,XXX,XXX </div>
-                      </div>
+                    <td class="listings" align="left" style="font-size:0px;padding:0px 30px;word-break:break-word;">
+                      
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;color:#343333;">2 Beds | 2 Baths | $X,XXX,XXX </div>
+                      
                     </td>
                   </tr>
                 </table>
@@ -1415,14 +1419,13 @@
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:20px 30px 5px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
+                    <td class="mobileCenter tightenMobile" align="left" style="font-size:0px;padding:20px 30px 5px 30px;word-break:break-word;">
                         <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:22px;font-weight:600;">Quick Market Update </div>
-                      </div>
+                     
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" class="tightenMobile" style="font-size:0px;padding:5px 30px 10px 30px;word-break:break-word;">
+                    <td class="mobileCenter tightenMobile" align="left" class="tightenMobile" style="font-size:0px;padding:5px 30px 10px 30px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:14px;font-weight:300;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region=""> Info here... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                       </div>
@@ -1549,17 +1552,17 @@
               <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:50px 30px 5px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:42px;font-weight:600;">Event Name </div>
-                      </div>
+                    <td class="mobileCenter tightenMobile" align="left" style="font-size:0px;padding:50px 30px 5px 30px;word-break:break-word;">
+                      
+                        <div pardot-region="" style="font-family:'Crimson Text',Georgia,Times,'Times New Roman',serif;font-size:42px; line-height: 54px;font-weight:600;color:#343333;">Event Name </div>
+
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:20px 30px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:18px;font-weight:600;">DATE | TIME | LOCATION </div>
-                      </div>
+                    <td class="mobileCenter tightenMobile" align="left" style="font-size:0px;padding:20px 30px;word-break:break-word;">
+                    
+                        <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:18px;font-weight:600;color:#343333;">DATE | TIME | LOCATION </div>
+                     
                     </td>
                   </tr>
                 </table>
@@ -1650,14 +1653,14 @@
               <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
+                    <td class="mobileCenter tightenMobile" align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:300;">Blurb about event... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                       </div>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
+                    <td class="mobileCenter" align="left" style="font-size:0px;padding:10px 20px;word-break:break-word;">
                       <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
                         <div pardot-region="" style="font-family:'Roboto',Arial,Helvetica,san-serif;font-size:15px;font-weight:600;">RSVP BY DECEMBER 1ST </div>
                       </div>
@@ -1665,7 +1668,7 @@
                   </tr>
                   <tr>
                     <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;padding-left:20px;word-break:break-word;">
-                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                      <table class="mobileCenterButton" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                         <tr>
                           <td align="center" bgcolor="#414141" role="presentation" style="border:none;border-radius:0px;cursor:auto;mso-padding-alt:10px 25px;background:#414141;" valign="middle">
                             <a pardot-region="" href="#" class="whiteLink" style="display:inline-block;background:#414141;color:#ffffff !important;font-family:'Roboto',Arial,Helvetica,san-serif;font-size:13px;font-weight:400;line-height:21px;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:0px;" target="_blank"> <span style="color: #FFFFFF !important; text-decoration: none !important;"><font style="color: #FFFFFF !important; text-decoration: none !important;"> RSVP </font></span> </a>
@@ -1908,58 +1911,13 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      <![endif]-->
-    <!-- Custom HTML Signature -->
-    <!--[if mso | IE]>
-      <table
-         align="center" border="0" cellpadding="0" cellspacing="0" class="pardot-repeat-remove-outlook" style="width:710px;" width="710"
-      >
-        <tr>
-          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-      <![endif]-->
-    <div pardot-removable="" pardot-repeatable="" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:710px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:10px 30px 20px 30px;text-align:center;">
-              <!--[if mso | IE]>
-                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                
-        <tr>
-      
-            <td
-               class="" style="vertical-align:top;width:650px;"
-            >
-          <![endif]-->
-              <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tr>
-                    <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <div style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;text-align:left;color:#343333;">
-                        <div class="customSignature">
-                          %%user_html_signature%%
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    
+
+    <!-- CUSTOM EMAIL SIGNATURE -->
+    %%user_html_signature%%
+    <!-- // CUSTOM EMAIL SIGNATURE -->
+
+
     <!--[if mso | IE]>
           </td>
         </tr>
