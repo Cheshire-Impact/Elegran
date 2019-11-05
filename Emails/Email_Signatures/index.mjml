@@ -11,7 +11,7 @@
         <mj-text color="#333" font-size="18px" font-weight="bold" font-family="'Roboto',Helvetica, Arial, sans-serif" text-transform="uppercase">
           Sunny Nagel
         </mj-text>
-        <mj-text color="#333" font-size="14px" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="0px">
+        <mj-text color="#333" font-size="`" font-family="'Roboto',Helvetica, Arial, sans-serif" padding-top="0px">
           Licensed RE Salesperson
         </mj-text>
         <mj-text padding-top="10px">
