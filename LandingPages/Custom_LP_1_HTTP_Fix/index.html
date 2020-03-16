@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="https://go.pardot.com" />
+    <base href="http://go.pardot.com" />
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="%%description%%" />
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="shortcut icon"
-      href="https://go.pardot.com/l/84912/2020-03-05/g6tg9f/84912/184372/elegran_favicon.ico"
+      href="http://go.pardot.com/l/84912/2020-03-05/g6tg9f/84912/184372/elegran_favicon.ico"
       type="image/x-icon"
     />
     <link
@@ -22,8 +22,36 @@
     />
     <link
       rel="stylesheet"
-      href="https://go.pardot.com/l/84912/2020-03-05/g6tg8w/84912/184370/lp_base_styles.css"
+      href="http://go.pardot.com/l/84912/2020-03-05/g6tg8w/84912/184370/lp_base_styles.css"
     />
+    <style>
+
+      #pardot-form {
+        margin-bottom: 2rem;
+      }
+     #close-zillow {
+        display: none;
+      }
+      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media (min-width: 768px) {  
+        #zillow {
+        position: fixed;
+        left: 20px;
+        bottom:0;
+      }
+      #close-zillow {
+        display:block;
+        position: absolute;
+        top:5px;
+        right:10px;
+      }
+      #close-zillow a {
+        color: #fff !important;
+      }
+      }
+
+      
+    </style>
   </head>
   <body>
     <!-- Editable Hero Background Image -->
@@ -33,7 +61,7 @@
     >
       <style>
         header {
-          background-image: url("https://go.pardot.com/l/84912/2020-03-05/g6t8dt/84912/184360/elegran_financial_district_bg.jpg");
+          background-image: url("http://go.pardot.com/l/84912/2020-03-05/g6t8dt/84912/184360/elegran_financial_district_bg.jpg");
           background-repeat: no-repeat;
           background-position: center left !important;
         }
@@ -56,11 +84,15 @@
     </nav>
 
     <!-- Hero -->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-white">
       <div class="container">
-        <h1 pardot-region="Hero Headline" class="mb-0">
-          Get a FREE property valuation!
-        </h1>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 pardot-region="Hero Headline" class="mb-0">
+              Get a FREE property valuation!
+            </h1>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -75,12 +107,21 @@
               advocate, and elevate. Submit your contact information and we will
               be in touch with you shortly to guide you through your needs.
             </p>
+            
           </div>
           <div id="form-outer" class="col-md-4 offset-md-1">
             <h2 pardot-region="Above Form Headline">
               Editable text above the form
             </h2>
-            %%content%%
+            <div id="form-container" class="mb-5 clearfix">%%content%%</div>
+            <div pardot-region="Zillow Review" id="zillow">
+              <!-- INSERT ZILLOW CODE HERE -->
+<div id="zillow-lender-reputation-large-widget" class="mx-auto" style="width:300px;height:auto;border:0px none;padding:0px;margin:0 auto;font:normal normal normal 10px verdana,arial,sans-serif;text-transform:none;text-indent:0px;line-height:13px;background-color:#ffffff;letter-spacing:0px;color:#999999;overflow:hidden;text-align:center;"> <div style="width:300px;height:31px;overflow:hidden;text-align:center;background-color:#0074e4;border:1px solid #0074e4;display:table-cell;vertical-align:middle;"> <div style="color:#ffffff;font-size:14px;font-weight:bold;margin:5px;">Reviews on Zillow</div> </div> <div style="width:298px;height:78px;border: 1px solid #dddddd;border-top:0px none;border-bottom:1px solid #bdbabd;overflow:hidden;box-sizing: content-box;"> <iframe scrolling="no" src="https://www.zillow.com:443/widgets/reputation/Rating.htm?did=rw-widget-container&ezuid=X1-ZUy7nofrm1xiix_8s1xy&size=wide&type=iframe&zmod=true" width="298" frameborder="0" style="display:block;" height="78"></iframe> </div> <div style="width:298px;overflow:hidden;border: 1px solid #dddddd;border-width:0px 1px 1px 1px;box-sizing:content-box;"> <div id="review" style="padding:10px;"> <span style="display:none;">1062155</span> <div style="text-align:left;"> <span style="font-size:12px;font-weight:normal;margin:0px 5px;color:#333333;">"I have worked with quite a few brokerages in Manhattan, and Elegran is the one I will recommend to all my fellow New Yorkers. Unlike the other ... <a rel="nofollow" style="text-decoration:none;cursor:pointer;color:#3366bb;font-size:12px;font-weight:normal;" href="http://www.zillow.com/profile/Elegran-Real-Estate/Reviews/?review=1062155" target="_blank"> more</a> "</span> </div> <div style="margin-top:5px;text-align:left;"> <div> <img src="https://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/images/rating-stars/rating-stars-500.png" style="width:57px;height:11px;vertical-align:text-bottom;border:0px none;"></img><span style="margin-left:5px;font-size:10px;font-weight:normal;color:#333333;">5.0/5.0</span> </div> <div style="font-size:10px;font-weight:normal;color:#999999;"><span>by <span id="reviewer">nathy426</span></span></div> </div> </div> <div id="review" style="padding:10px;"> <span style="display:none;">1997654</span> <div style="text-align:left;"> <span style="font-size:12px;font-weight:normal;margin:0px 5px;color:#333333;">"Elegran's service was great! Kept in constant contact throughout the process. Very professional, courteous, and knowledgeable about the city. If any ... <a rel="nofollow" style="text-decoration:none;cursor:pointer;color:#3366bb;font-size:12px;font-weight:normal;" href="http://www.zillow.com/profile/Elegran-Real-Estate/Reviews/?review=1997654" target="_blank"> more</a> "</span> </div> <div style="margin-top:5px;text-align:left;"> <div> <img src="https://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/images/rating-stars/rating-stars-500.png" style="width:57px;height:11px;vertical-align:text-bottom;border:0px none;"></img><span style="margin-left:5px;font-size:10px;font-weight:normal;color:#333333;">5.0/5.0</span> </div> <div style="font-size:10px;font-weight:normal;color:#999999;"><span>by <span id="reviewer">mia hughes1</span></span></div> </div> </div> </div> <div style="width:300px;overflow:hidden;border: 1px solid #dddddd;border-width:0px 1px 1px;padding: 10px;"> <span id="widgetFooterLink"> <a href="https://www.zillow.com/new-york-ny/" target="_blank" rel="nofollow"> <img width="118px;" src="https://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo_150x40.gif"></img> </a> </span> </div> </div>
+<!-- // INSERT ZILLOW CODE HERE -->
+            <div id="close-zillow">
+             <a href="javascript:void(0)"><i class="fas fa-window-close"></i></a>
+            </div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -242,5 +283,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+      $( document ).ready(function() {
+          $("#close-zillow").click(function(){
+            $("#zillow").hide();
+          });
+      });
+    </script>
+
   </body>
 </html>
